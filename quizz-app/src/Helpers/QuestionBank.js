@@ -5,7 +5,7 @@ export const Questions = [
         optionB : "186",
         optionC : "20",
         optionD : "4",
-        answer : "optionD"
+        answer : "D"
     },
     {
         prompt : "Which is Streaming platform ?",
@@ -13,7 +13,7 @@ export const Questions = [
         optionB : "Twitch",
         optionC : "Google",
         optionD : "RobinHood",
-        answer : "optionB"
+        answer : "B"
     },
     {
         prompt : "Which is Best futball team ?",
@@ -21,6 +21,6 @@ export const Questions = [
         optionB : "Milan",
         optionC : "Liverpool",
         optionD : "Juventus",
-        answer : "optionD"
+        answer : "D"
     },
 ]
