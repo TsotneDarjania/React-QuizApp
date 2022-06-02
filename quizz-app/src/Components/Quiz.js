@@ -29,10 +29,10 @@ export default function Quiz() {
     <div className='quiz'>
       <h1> {Questions[currQuestion].prompt}</h1>
       <div className='options'>
-        <button onClick={() => setOptionChoosen("A")}> { Questions[currQuestion].optionA } </button>
-        <button onClick={() => setOptionChoosen("B")}> { Questions[currQuestion].optionB } </button>
-        <button onClick={() => setOptionChoosen("C")}> { Questions[currQuestion].optionC } </button>
-        <button onClick={() => setOptionChoosen("D")}> { Questions[currQuestion].optionD } </button>
+        <button className='quiz-btn' onClick={() => setOptionChoosen("A")}> { Questions[currQuestion].optionA } </button>
+        <button className='quiz-btn' onClick={() => setOptionChoosen("B")}> { Questions[currQuestion].optionB } </button>
+        <button className='quiz-btn' onClick={() => setOptionChoosen("C")}> { Questions[currQuestion].optionC } </button>
+        <button className='quiz-btn' onClick={() => setOptionChoosen("D")}> { Questions[currQuestion].optionD } </button>
       </div>
        
        {currQuestion == Questions.length - 1 ?(
